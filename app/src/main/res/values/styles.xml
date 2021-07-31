@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Tema Aplicado nas Despesas -->
+    <style name="DespesaTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar" > false</item>
+        <item name="android:windowNoTitle"> true</item>
+        <item name="colorPrimary" >@color/colorPrimaryDespesas</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDespesas</item>
+        <item name="colorAccent">@color/colorAccentDespesas</item>
+    </style>
+    <!-- Tema Aplicado nas Receitas. -->
+    <style name="ReceitasTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar" > false</item>
+        <item name="android:windowNoTitle"> true</item>
+        <item name="colorPrimary" >@color/colorPrimaryReceita</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryReceita</item>
+        <item name="colorAccent">@color/colorAccentReceita</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
